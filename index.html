@@ -136,16 +136,11 @@
             text-decoration: none;
             color: var(--text);
         }
-        .logo-icon {
+        .logo-img {
             width: 44px;
             height: 44px;
-            background: var(--primary);
             border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 20px;
+            object-fit: cover;
         }
         .logo-text h1 {
             font-size: 20px;
@@ -694,9 +689,7 @@
     <header>
         <div class="header-inner">
             <a href="#" class="logo">
-                <div class="logo-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-                </div>
+                <img src="images/logo.jpg" alt="Repair Tronics Logo" class="logo-img">
                 <div class="logo-text">
                     <h1>Repair Tronics</h1>
                     <span>LED & LCD TV Repair Experts</span>
